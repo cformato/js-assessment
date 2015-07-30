@@ -17,19 +17,18 @@ exports.bestPracticesAnswers = {
 
   functions : function(flag) {
     if (flag) {
-      function getValue() { return 'a'; }
-    } else {
-      function getValue() { return 'b'; }
+      return 'a';
+    } 
+    else {
+      return 'b';
     }
-
-    return getValue();
   },
 
   parseInt : function(num) {
-    return parseInt(num);
+    return parseInt(num.match(/\d+/));
   },
 
   identity : function(val1, val2) {
-
+    return val1 === val2;
   }
 };
