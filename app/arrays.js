@@ -144,5 +144,6 @@ exports.arraysAnswers = {
 };
 
 
-//arrays, count, logicalOperators, numbers, flowControl, objects, functions, recursion
-// modules, bestPractices, aSync
+// arrays(done), count(done), logicalOperators(done), numbers(done), 
+// flowControl(done), objects(done), functions(started), recursion(started), 
+// modules(not started), bestPractices(done), aSync(not started), regex(done)

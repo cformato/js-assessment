@@ -63,7 +63,11 @@ exports.functionsAnswers = {
   },
 
   partialUsingArguments : function(fn) {
-    fn[0](fn[1], fn[2], fn[3])
+    // fn[0](fn[1], fn[2], fn[3])
+    return function(punctuation) {
+      return fn(str1, str2, punctuation);
+    }
+    
   },
 
   curryIt : function(fn) {
